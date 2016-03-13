@@ -1,0 +1,14 @@
+#Eclipse
+.settings/
+.project
+.classpath
+.externalToolBuilders
+bin/
+dist/
+#Maven
+target/*
+#Common
+*log/
+/target/
+#Include executable jar
+!target/*executable*.jar
